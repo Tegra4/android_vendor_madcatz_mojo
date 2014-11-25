@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/hotplug:system/bin/hotplug \
     vendor/madcatz/mojo/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/madcatz/mojo/proprietary/bin/mount_debugfs.sh:system/bin/mount_debugfs.sh \
-    vendor/madcatz/mojo/proprietary/bin/nvcap_test:system/bin/nvcap_test \
     vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/madcatz/mojo/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/madcatz/mojo/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
