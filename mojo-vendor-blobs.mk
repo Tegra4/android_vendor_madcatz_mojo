@@ -36,10 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/wbtmiscwriter.sh:system/bin/wbtmiscwriter.sh \
     vendor/madcatz/mojo/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/madcatz/mojo/proprietary/etc/enctune.conf:system/etc/enctune.conf \
-    vendor/madcatz/mojo/proprietary/etc/nvram_JP01_43241.txt:system/etc/nvram_JP01_43241.txt \
-    vendor/madcatz/mojo/proprietary/etc/nvram_US39_43241.txt:system/etc/nvram_US39_43241.txt \
-    vendor/madcatz/mojo/proprietary/etc/nvram_XV01_43241.txt:system/etc/nvram_XV01_43241.txt \
-    vendor/madcatz/mojo/proprietary/etc/nvcpud.conf:system/etc/nvcpud.conf \
     vendor/madcatz/mojo/proprietary/etc/firmware/bcm43241.hcd:system/etc/firmware/bcm43241.hcd \
     vendor/madcatz/mojo/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/madcatz/mojo/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
@@ -47,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
+    vendor/madcatz/mojo/proprietary/etc/nvcpud.conf:system/etc/nvcpud.conf \
+    vendor/madcatz/mojo/proprietary/etc/nvram_JP01_43241.txt:system/etc/nvram_JP01_43241.txt \
+    vendor/madcatz/mojo/proprietary/etc/nvram_US39_43241.txt:system/etc/nvram_US39_43241.txt \
+    vendor/madcatz/mojo/proprietary/etc/nvram_XV01_43241.txt:system/etc/nvram_XV01_43241.txt \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
@@ -68,16 +68,12 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
     vendor/madcatz/mojo/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
     vendor/madcatz/mojo/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
     vendor/madcatz/mojo/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/madcatz/mojo/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/madcatz/mojo/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
     vendor/madcatz/mojo/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
@@ -85,9 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/madcatz/mojo/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
     vendor/madcatz/mojo/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvhdmi3dplay_jni.so:system/lib/libnvhdmi3dplay_jni.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
@@ -102,36 +96,26 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
     vendor/madcatz/mojo/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/madcatz/mojo/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/madcatz/mojo/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvopt_dvm.so:system/lib/libnvopt_dvm.so \
     vendor/madcatz/mojo/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/madcatz/mojo/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvremoteevtmgr.so:system/lib/libnvremoteevtmgr.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvremotell.so:system/lib/libnvremotell.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvremoteprotocol.so:system/lib/libnvremoteprotocol.so \
     vendor/madcatz/mojo/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/madcatz/mojo/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/madcatz/mojo/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/madcatz/mojo/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
     vendor/madcatz/mojo/proprietary/lib/libnvtnr.so:system/lib/libnvtnr.so \
     vendor/madcatz/mojo/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvupdater_jni.so:system/lib/libnvupdater_jni.so \
     vendor/madcatz/mojo/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/madcatz/mojo/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/madcatz/mojo/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/madcatz/mojo/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/madcatz/mojo/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/madcatz/mojo/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
@@ -143,4 +127,5 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/vendor/lib/hw/power.mojo.so:system/vendor/lib/hw/power.mojo.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/madcatz/mojo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+    vendor/madcatz/mojo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/madcatz/mojo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
