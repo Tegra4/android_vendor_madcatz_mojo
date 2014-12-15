@@ -26,9 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/madcatz/mojo/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/madcatz/mojo/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
-    vendor/madcatz/mojo/proprietary/bin/nvtest:system/bin/nvtest \
     vendor/madcatz/mojo/proprietary/bin/powerservice:system/bin/powerservice \
-    vendor/madcatz/mojo/proprietary/bin/test-wvdrmplugin:system/bin/test-wvdrmplugin \
     vendor/madcatz/mojo/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/madcatz/mojo/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
     vendor/madcatz/mojo/proprietary/bin/ussrd:system/bin/ussrd \
@@ -45,11 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/madcatz/mojo/proprietary/etc/nvcpud.conf:system/etc/nvcpud.conf \
     vendor/madcatz/mojo/proprietary/etc/nvram.txt:system/etc/nvram.txt \
-    vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/madcatz/mojo/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
@@ -59,6 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/madcatz/mojo/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/madcatz/mojo/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/madcatz/mojo/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
+    vendor/madcatz/mojo/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
+    vendor/madcatz/mojo/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
     vendor/madcatz/mojo/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
     vendor/madcatz/mojo/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
     vendor/madcatz/mojo/proprietary/lib/libgov_cpufs.so:system/lib/libgov_cpufs.so \
@@ -93,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
     vendor/madcatz/mojo/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/madcatz/mojo/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/madcatz/mojo/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
@@ -111,9 +108,9 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
-    vendor/madcatz/mojo/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/madcatz/mojo/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
+    vendor/madcatz/mojo/proprietary/lib/libtinyalsa-legacy.so:system/lib/libtinyalsa-legacy.so \
     vendor/madcatz/mojo/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/madcatz/mojo/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/madcatz/mojo/proprietary/lib/libussrd.so:system/lib/libussrd.so \
