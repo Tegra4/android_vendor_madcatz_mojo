@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/madcatz/mojo/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/madcatz/mojo/proprietary/lib/libtinyalsa-legacy.so:system/lib/libtinyalsa-legacy.so \
+    vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/madcatz/mojo/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/madcatz/mojo/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/madcatz/mojo/proprietary/lib/libussrd.so:system/lib/libussrd.so \
