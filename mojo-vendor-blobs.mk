@@ -46,8 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+    vendor/madcatz/mojo/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+    vendor/madcatz/mojo/proprietary/lib/hw/hdmi_cec.tegra.so:system/lib/hw/hdmi_cec.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/madcatz/mojo/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/madcatz/mojo/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
