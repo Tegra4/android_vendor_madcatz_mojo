@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/ethernet_loader.sh:system/bin/ethernet_loader.sh \
     vendor/madcatz/mojo/proprietary/bin/hotplug:system/bin/hotplug \
     vendor/madcatz/mojo/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
+    vendor/madcatz/mojo/proprietary/bin/mft_data:system/bin/mft_data \
     vendor/madcatz/mojo/proprietary/bin/mount_debugfs.sh:system/bin/mount_debugfs.sh \
     vendor/madcatz/mojo/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/madcatz/mojo/proprietary/bin/nvcpud:system/bin/nvcpud \
