@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/bin/ussrd:system/bin/ussrd \
     vendor/madcatz/mojo/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/madcatz/mojo/proprietary/bin/wbtmiscwriter.sh:system/bin/wbtmiscwriter.sh \
-    vendor/madcatz/mojo/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
     vendor/madcatz/mojo/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/madcatz/mojo/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/madcatz/mojo/proprietary/etc/firmware/bcm43241.hcd:system/etc/firmware/bcm43241.hcd \
