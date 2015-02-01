@@ -37,9 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/madcatz/mojo/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/madcatz/mojo/proprietary/etc/nvcpud.conf:system/etc/nvcpud.conf \
-    vendor/madcatz/mojo/proprietary/etc/nvram_JP01_43241.txt:system/etc/nvram_JP01_43241.txt \
-    vendor/madcatz/mojo/proprietary/etc/nvram_US39_43241.txt:system/etc/nvram_US39_43241.txt \
-    vendor/madcatz/mojo/proprietary/etc/nvram_XV01_43241.txt:system/etc/nvram_XV01_43241.txt \
+    vendor/madcatz/mojo/proprietary/etc/nvram_43241.txt:system/etc/nvram_43241.txt \
     vendor/madcatz/mojo/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/madcatz/mojo/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -113,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/madcatz/mojo/proprietary/lib/libussrd.so:system/lib/libussrd.so \
     vendor/madcatz/mojo/proprietary/lib/nvcms/device.cfg:system/lib/nvcms/device.cfg \
+    vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd.bin:system/vendor/firmware/bcm43241/fw_bcmdhd.bin \
     vendor/madcatz/mojo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/hw/power.mojo.so:system/vendor/lib/hw/power.mojo.so \
