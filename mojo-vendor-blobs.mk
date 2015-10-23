@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/madcatz/mojo/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/madcatz/mojo/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/madcatz/mojo/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/madcatz/mojo/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/madcatz/mojo/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
