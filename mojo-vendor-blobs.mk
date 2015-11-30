@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
+    vendor/madcatz/mojo/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/madcatz/mojo/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
