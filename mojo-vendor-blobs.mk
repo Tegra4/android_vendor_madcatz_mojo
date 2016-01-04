@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm43241/fw_bcmdhd_apsta.bin \
     vendor/madcatz/mojo/proprietary/vendor/firmware/bcm43241/fw_bcmdhd.bin:system/vendor/firmware/bcm43241/fw_bcmdhd.bin \
     vendor/madcatz/mojo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/madcatz/mojo/proprietary/vendor/lib/hw/power.mojo.so:system/vendor/lib/hw/power.mojo.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/madcatz/mojo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
