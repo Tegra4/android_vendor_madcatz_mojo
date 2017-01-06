@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/madcatz/mojo/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/madcatz/mojo/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/madcatz/mojo/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/madcatz/mojo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/madcatz/mojo/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/madcatz/mojo/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/madcatz/mojo/proprietary/lib/libussrd.so:system/lib/libussrd.so \
